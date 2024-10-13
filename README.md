@@ -40,7 +40,7 @@ This is proof of concept implementation for a serverless backend system designed
         - **SenderEmail**  
         - **SecretKeyJwtToken**  
         - **S3BucketName**  
-    - Continue with the stack creation by following the on-screen prompts.  
+    - Continue with the stack creation by following the on-screen step by step instructions.  
     - Upon completion of the stack creation, the infrastructure components, including the DynamoDB table, Lambda functions, and API Gateway, will be successfully deployed.
 4. **Testing**
     - Once the stack creation is complete, you can copy the output variable value `TokenCreationAPIURL`. Use this URL to make a request via Postman, providing a JSON object in the body, formatted as: `{"email": "emailAddress"}`.
